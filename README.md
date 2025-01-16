@@ -6,7 +6,8 @@
 1. Create a New Folder in any of the folder and open it in Terminal.
 2. Run 'sysm.cpl' and a pop up appears. Click on 'Advanced' tab -> 'Environmental Variables' and select 'Path' and click on 'Edit'.
 3. Click on 'New' and and add the directory location of the New Folder.
-4. Run 'code .' and Visual Studio opens up.
+4. Run 'code .' and Visual Studio opens up.[Uploading vpc.tf…]()
+
 5. Now Authenticate the CSP with Terraform.
 
  ## Authenticate Terraform with AWS
@@ -16,4 +17,7 @@
 ## Configure VPC
 - Run .. command on Visual Code.
 - Specify the other arguements which arre required.
-- Add Internet Gateway, by executing this command.
+- Add Internet Gateway, alonfg with subnet configuration and availability zone.
+- Configure the route table and specify the VPC ID.
+- Add the Route Table Configuration and security groups.
+ 
