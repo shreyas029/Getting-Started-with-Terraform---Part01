@@ -20,4 +20,15 @@
 - Add Internet Gateway, alonfg with subnet configuration and availability zone.
 - Configure the route table and specify the VPC ID.
 - Add the Route Table Configuration and security groups.
- 
+
+ ## Executing Terraform commands
+ After configuring the VPC, execute the folllowing commands on PowerShell.
+ - terraform fmt; terraform validate; terraform plan
+ - terraform apply (terraform statefile will be created)
+And the VPC can be verfied on the AWS Console.
+
+## Developingg Git Skills
+1. Generate SSH key from GitHub.
+Exceute the command, {ssh-keygen} to generate the keys.
+Then run cat followed by file path with '.pub' extension to retrieve the public key.
+
